@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b41fe863_f8db4e58",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 10
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-05-29T09:39:21Z",
+      "side": 1,
+      "message": "_",
+      "range": {
+        "startLine": 67,
+        "startChar": 25,
+        "endLine": 67,
+        "endChar": 26
+      },
+      "revId": "1527c5a888e8c43dd32ae0b64e54f90f7d2c4bcf",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
