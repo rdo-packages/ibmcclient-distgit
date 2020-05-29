@@ -45,6 +45,30 @@
       "revId": "7af0650f3d2769a4ef736f3cc6a2814efd9cc188",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c03dbd88_bba06725",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 9
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2020-05-29T09:35:52Z",
+      "side": 1,
+      "message": "It seems to be creating python_ibmcclient.egg-info so probably you need something like python_%{library}*.egg-info",
+      "parentUuid": "4404f6d2_3210f74e",
+      "range": {
+        "startLine": 67,
+        "startChar": 19,
+        "endLine": 67,
+        "endChar": 37
+      },
+      "revId": "7af0650f3d2769a4ef736f3cc6a2814efd9cc188",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
