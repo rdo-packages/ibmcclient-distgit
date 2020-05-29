@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "d75897d9_1ffc5f03",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 9
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 694
+      },
+      "writtenOn": "2020-05-29T11:18:39Z",
+      "side": 1,
+      "message": "i have tried ibmc_client, but it seems not work too.",
+      "parentUuid": "4c920155_a32d6ce1",
+      "range": {
+        "startLine": 66,
+        "startChar": 19,
+        "endLine": 66,
+        "endChar": 37
+      },
+      "revId": "7af0650f3d2769a4ef736f3cc6a2814efd9cc188",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4404f6d2_3210f74e",
         "filename": "python-ibmcclient.spec",
         "patchSetId": 9
