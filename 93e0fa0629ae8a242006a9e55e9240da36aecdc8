@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff85ecd_c3d9c7dc",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-05-29T07:50:47Z",
+      "side": 1,
+      "message": "XXX",
+      "range": {
+        "startLine": 18,
+        "startChar": 12,
+        "endLine": 18,
+        "endChar": 17
+      },
+      "revId": "93e0fa0629ae8a242006a9e55e9240da36aecdc8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e56eacae_82f1046c",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-05-29T07:50:47Z",
+      "side": 1,
+      "message": "XXX",
+      "range": {
+        "startLine": 19,
+        "startChar": 12,
+        "endLine": 19,
+        "endChar": 21
+      },
+      "revId": "93e0fa0629ae8a242006a9e55e9240da36aecdc8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4c40bbec_7aaf00a5",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-05-29T07:50:47Z",
+      "side": 1,
+      "message": "remove extra space",
+      "range": {
+        "startLine": 64,
+        "startChar": 20,
+        "endLine": 64,
+        "endChar": 21
+      },
+      "revId": "93e0fa0629ae8a242006a9e55e9240da36aecdc8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3feaf2b8_b0e2ed9e",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-05-29T07:50:47Z",
+      "side": 1,
+      "message": "can be cleaned up.",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 28
+      },
+      "revId": "93e0fa0629ae8a242006a9e55e9240da36aecdc8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
