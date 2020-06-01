@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "35e15093_21ae2096",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 12
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-06-01T08:20:59Z",
+      "side": 1,
+      "message": "remove dot to avoid rpmlint warning",
+      "range": {
+        "startLine": 20,
+        "startChar": 65,
+        "endLine": 20,
+        "endChar": 66
+      },
+      "revId": "1c5a20c5cd6337979ccb7928bd9ee8ddfae1a01c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ad9544c2_20095c4c",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 12
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-06-01T08:20:59Z",
+      "side": 1,
+      "message": "ASL 2.0",
+      "range": {
+        "startLine": 21,
+        "startChar": 12,
+        "endLine": 21,
+        "endChar": 22
+      },
+      "revId": "1c5a20c5cd6337979ccb7928bd9ee8ddfae1a01c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ed36ee5_635635ff",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 12
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-06-01T08:20:59Z",
+      "side": 1,
+      "message": "remove extra space",
+      "range": {
+        "startLine": 61,
+        "startChar": 46,
+        "endLine": 61,
+        "endChar": 47
+      },
+      "revId": "1c5a20c5cd6337979ccb7928bd9ee8ddfae1a01c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
