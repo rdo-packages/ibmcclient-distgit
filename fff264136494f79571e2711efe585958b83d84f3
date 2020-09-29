@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "639ffdc1_015326e3",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 694
+      },
+      "writtenOn": "2020-09-29T08:42:11Z",
+      "side": 1,
+      "message": "hello, may this be auto updated? I thought if i release a new version, RDO will auto release it.",
+      "revId": "fff264136494f79571e2711efe585958b83d84f3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
