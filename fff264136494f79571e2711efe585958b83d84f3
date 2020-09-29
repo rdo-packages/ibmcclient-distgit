@@ -16,6 +16,47 @@
       "revId": "fff264136494f79571e2711efe585958b83d84f3",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "db4135e3_087f8141",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-09-29T11:13:31Z",
+      "side": 1,
+      "message": "@jojo, no it will not be auto update, we auto update for projects in upper-constraints:- https://github.com/openstack/requirements/blob/master/upper-constraints.txt\n\nFor other projects it needs to be done manually by maintainer when needed.\n\nSince this is initial build for victoria release we take the latest tag release of project if it\u0027s not pinned in rdoinfo.",
+      "parentUuid": "639ffdc1_015326e3",
+      "revId": "fff264136494f79571e2711efe585958b83d84f3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed3befe6_30abab27",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-09-29T11:13:31Z",
+      "side": 1,
+      "message": "need to add BuildRequires on git.",
+      "range": {
+        "startLine": 49,
+        "startChar": 45,
+        "endLine": 49,
+        "endChar": 48
+      },
+      "revId": "fff264136494f79571e2711efe585958b83d84f3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
