@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "fdf7fe35_6994421f",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2020-09-29T14:37:51Z",
+      "side": 1,
+      "message": "you can use tarball from pypi which is clean from tests folder and it\u0027s usually considered a better source that github. Replace this line by:\n\nSource0:    https://pypi.io/packages/source/p/%{name}/%{name}-%{upstream_version}.tar.gz",
+      "range": {
+        "startLine": 24,
+        "startChar": 12,
+        "endLine": 24,
+        "endChar": 91
+      },
+      "revId": "f6209ff784db4d9a0d502a637ee0f04b7ce742b9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "98c8e46e_b1f37cdd",
         "filename": "python-ibmcclient.spec",
         "patchSetId": 2
@@ -49,6 +72,24 @@
       "side": 1,
       "message": "Should i uncomment this line? Not sure why it works on main branch, but not here.",
       "parentUuid": "97f13960_921ffb0b",
+      "revId": "f6209ff784db4d9a0d502a637ee0f04b7ce742b9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8a7d64e1_1f8e502a",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2020-09-29T14:37:51Z",
+      "side": 1,
+      "message": "See my comment about Source0",
+      "parentUuid": "65611718_83e2c37f",
       "revId": "f6209ff784db4d9a0d502a637ee0f04b7ce742b9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
