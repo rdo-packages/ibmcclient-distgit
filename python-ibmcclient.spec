@@ -21,9 +21,10 @@ Summary:    Python library for managing HUAWEI iBMC based servers
 License:    ASL 2.0
 URL:        https://github.com/IamFive/python-ibmcclient
 
-Source0:    https://github.com/IamFive/python-ibmcclient/archive/%{upstream_version}.tar.gz
+Source0:    https://pypi.io/packages/source/p/%{name}/%{name}-%{upstream_version}.tar.gz
 
 BuildArch:  noarch
+
 
 %description %{_description}
 
@@ -32,6 +33,7 @@ BuildArch:  noarch
 Summary:        %{summary}
 %{?python_provide:%python_provide python3-%{library}}
 
+BuildRequires: git
 BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 # Unittest requirements
