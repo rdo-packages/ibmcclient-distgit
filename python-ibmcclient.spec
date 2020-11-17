@@ -25,7 +25,7 @@ Source0:    https://github.com/IamFive/python-ibmcclient/archive/%{upstream_vers
 
 BuildArch:  noarch
 
-BuildRequires: git
+BuildRequires: git-core
 
 %description %{_description}
 
