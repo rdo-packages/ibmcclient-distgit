@@ -18,7 +18,7 @@ Name:       python-%{library}
 Version:    XXX
 Release:    XXX
 Summary:    Python library for managing HUAWEI iBMC based servers
-License:    ASL 2.0
+License:    Apache-2.0
 URL:        https://github.com/IamFive/python-ibmcclient
 
 Source0:    https://github.com/IamFive/python-ibmcclient/archive/%{upstream_version}.tar.gz
@@ -32,32 +32,24 @@ BuildRequires: git-core
 
 %package -n python3-%{library}
 Summary:        %{summary}
-%{?python_provide:%python_provide python3-%{library}}
 
 BuildRequires:  python3-devel
-BuildRequires:  python3-setuptools
-# Unittest requirements
-BuildRequires:  python3-requests
-BuildRequires:  python3-mock
-BuildRequires:  python3-responses
-
-Requires:       python3-requests
-Requires:       python3-six
-
+BuildRequires:  pyproject-rpm-macros
 %description -n python3-%{library} %{_description}
 
 
 %prep
 %autosetup -n %{name}-%{upstream_version} -S git
 
-# Remove bundled egg-info
-rm -rf %{name}.egg-info
+
+%generate_buildrequires
+%pyproject_buildrequires requirements.txt
 
 %build
-%py3_build
+%pyproject_wheel
 
 %install
-%py3_install
+%pyproject_install
 
 
 # the tests folder is excluded in manifest.in,
@@ -69,7 +61,7 @@ rm -rf %{name}.egg-info
 %license LICENSE.txt
 %doc README.rst CHANGELOG.md
 %{python3_sitelib}/ibmc_client
-%{python3_sitelib}/python_%{library}-*.egg-info
+%{python3_sitelib}/python_%{library}-*.dist-info
 # %exclude %{python3_sitelib}/tests
 
 %changelog
