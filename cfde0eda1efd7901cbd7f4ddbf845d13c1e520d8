@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbb5ba92_e706bf0b",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-07-20T11:00:27Z",
+      "side": 1,
+      "message": "tests/ test-requirements.txt and tox.ini are excluded in MANIFEST.in file [1]\n\nSo we just need to rely on requirements.txt.\n\n[1] https://github.com/IamFive/python-ibmcclient/blob/8d8cfe9efcb502bafded943dd61a0e45c1860227/MANIFEST.in#L15-L19",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 1
+      },
+      "revId": "cfde0eda1efd7901cbd7f4ddbf845d13c1e520d8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
