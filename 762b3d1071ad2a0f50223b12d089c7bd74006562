@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f9a37ef_c6c5215b",
+        "filename": "python-ibmcclient.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-07-20T08:02:41Z",
+      "side": 1,
+      "message": "I added the tox.ini content here but now I realized there is no test-requirements.txt neither in tarball.\nI guess there is no great value to migrate this project as there is no activity upstream since 3 years now [1]\n\n[1] https://github.com/IamFive/python-ibmcclient/",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 3
+      },
+      "revId": "762b3d1071ad2a0f50223b12d089c7bd74006562",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
