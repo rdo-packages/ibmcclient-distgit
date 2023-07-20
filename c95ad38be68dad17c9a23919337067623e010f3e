@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ca8200e_40c9bc43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-07-20T07:22:21Z",
+      "side": 1,
+      "message": "tox.ini is not shipped in tarball coming from GH.\nI checked the PyPI tarball and it\u0027s the same",
+      "revId": "c95ad38be68dad17c9a23919337067623e010f3e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
