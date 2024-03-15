@@ -15,8 +15,8 @@ OpenStack Ironic ibmc driver.\
 
 
 Name:       python-%{library}
-Version:    XXX
-Release:    XXX
+Version:    0.2.5.1
+Release:    2%{?dist}
 Summary:    Python library for managing HUAWEI iBMC based servers
 License:    Apache-2.0
 URL:        https://github.com/IamFive/python-ibmcclient
@@ -62,6 +62,9 @@ BuildRequires:  pyproject-rpm-macros
 %doc README.rst CHANGELOG.md
 %{python3_sitelib}/ibmc_client
 %{python3_sitelib}/python_%{library}-*.dist-info
-# %exclude %{python3_sitelib}/tests
+%exclude %{python3_sitelib}/tests
 
 %changelog
+* Fri Mar 15 2024 RDO <dev@lists.rdoproject.org> 0.2.5.1-2
+- Rebuild 0.2.5.1 in Caracal
+
